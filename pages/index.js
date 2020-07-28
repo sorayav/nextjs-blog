@@ -20,7 +20,7 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section className={utilStyles.headingSm}>
         <p>My name is Soraya and I'm a Spanish front-end developer jr specializing in JavaScript, React, UI design (HTML5 & CSS3, Sass, etc.) and API integration.</p>
 
         <p>I'm curious by nature and I take making others laugh very seriously.</p>
