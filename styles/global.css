@@ -13,12 +13,13 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: #f300e7;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  border-bottom: 5px solid #43e97b;
 }
 
 img {
