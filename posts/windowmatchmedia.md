@@ -10,5 +10,4 @@ I didn't!
 
 ![@IMAC2 tweet](/images/blog/matchMedia.png)
 
-
-More on [MDN](https://developer.mozilla.org/es/docs/Web/API/Window/matchMedia).
+More on <a href="https://developer.mozilla.org/es/docs/Web/API/Window/matchMedia" target="_blank">MDN</a>.

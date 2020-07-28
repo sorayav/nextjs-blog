@@ -13,4 +13,4 @@ Hacktoberfest is a monthlong celebration of open source software run by DigitalO
 - Four quality pull requests must be submitted to public GitHub repositories.
 - You can sign up anytime between October 1 and October 31.
 
-More info on [their website](https://hacktoberfest.digitalocean.com/).
+More info on <a href="https://hacktoberfest.digitalocean.com/" target="_blank">their website</a>.
