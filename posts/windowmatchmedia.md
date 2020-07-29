@@ -1,7 +1,7 @@
 ---
 title: 'JS tip: window.matchMedia()'
 date: '2020-07-28'
-tags: 'javascript, tips'
+tags: 'Javascript, tips'
 ---
 
 #### Did you know...

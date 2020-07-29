@@ -1,7 +1,7 @@
 ---
 title: 'Hacktoberfest 2020'
 date: '2020-07-29'
-tags: 'hacktoberfest'
+tags: 'Hacktoberfest'
 ---
 
 **Hacktoberfest 2020** is coming! 
