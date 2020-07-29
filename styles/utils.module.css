@@ -107,9 +107,6 @@
   .details[open] {
     height: 20rem;
   }
-  .inLine {
-    width: 20px;
-  }
 }
 
 .summary {

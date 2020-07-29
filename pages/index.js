@@ -27,13 +27,13 @@ export default function Home({ allPostsData }) {
         <p>I'm curious by nature and I take making others laugh very seriously.</p>
      
         <p>This is my first blog built with Next.js.</p>
-        <p>You can also find me on here: <a href="https://github.com/sorayav" target="_blank"><img className={utilStyles.inLine} src="https://img.icons8.com/nolan/32/github.png" alt="Github icon" /></a> 
+        <p>You can also find me on <a href="https://github.com/sorayav" target="_blank"><img className={utilStyles.inLine} src="https://img.icons8.com/nolan/32/github.png" alt="Github icon" /></a> 
         <a href="https://twitter.com/SocialSoraya" target="_blank"><img className={utilStyles.inLine} src="https://img.icons8.com/nolan/32/twitter.png" alt="Twitter icon" /></a></p>
         </details>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Quick snippets:</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>

@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Soraya'
-export const siteTitle = 'Soraya blog - built with Next.js'
+export const siteTitle = 'Soraya V. blog: code snippets'
 
 export default function Layout({ children, home }) {
   return (
@@ -13,7 +13,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Blog built using Next.js"
+          content="Soraya V. blog: code snippets"
         />
         <meta
           property="og:image"
