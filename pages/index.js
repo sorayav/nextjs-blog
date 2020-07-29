@@ -21,11 +21,15 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingSm}>
-        <p>My name is Soraya and I'm a Spanish front-end developer jr specializing in JavaScript, React, UI design (HTML5 & CSS3, Sass, etc.) and API integration.</p>
+        <details className={utilStyles.details}><summary className={utilStyles.summary}>Hi 👋. My name is Soraya and I'm a Spanish front-end developer.</summary>
+        <p>I'm specializing in JavaScript, React, UI design (HTML5 & CSS3, Sass, etc.) and API integration.</p>
 
         <p>I'm curious by nature and I take making others laugh very seriously.</p>
      
         <p>This is my first blog built with Next.js.</p>
+        <p>You can also find me on here: <a href="https://github.com/sorayav" target="_blank"><img className={utilStyles.inLine} src="https://img.icons8.com/nolan/32/github.png" alt="Github icon" /></a> 
+        <a href="https://twitter.com/SocialSoraya" target="_blank"><img className={utilStyles.inLine} src="https://img.icons8.com/nolan/32/twitter.png" alt="Twitter icon" /></a></p>
+        </details>
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
