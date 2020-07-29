@@ -14,6 +14,33 @@
   margin: 1rem 0;
 }
 
+.headingXl:before {
+  display: inline-block;
+  content: '{ ';
+  animation: rotate 0.5s 1;
+  color: #43e97b;
+  margin-right: 10px;
+}
+
+.headingXl:after {
+  display: inline-block;
+  content: ' }';
+  animation: rotate 0.5s 1;
+  color: #43e97b;
+  margin-left: 10px;
+}
+
+@keyframes rotate {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 .headingLg {
   font-size: 1.5rem;
   line-height: 1.4;
