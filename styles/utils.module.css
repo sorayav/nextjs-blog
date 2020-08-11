@@ -17,7 +17,7 @@
 .headingXl:before {
   display: inline-block;
   content: '{ ';
-  animation: rotate 0.5s 1;
+  animation: translate 0.5s 1;
   color: #43e97b;
   margin-right: 10px;
 }
@@ -25,12 +25,12 @@
 .headingXl:after {
   display: inline-block;
   content: ' }';
-  animation: rotate 0.5s 1;
+  animation: translate 0.5s 1;
   color: #43e97b;
   margin-left: 10px;
 }
 
-@keyframes rotate {
+@keyframes translate {
   from {
     opacity: 0;
     transform: translateY(40px);
